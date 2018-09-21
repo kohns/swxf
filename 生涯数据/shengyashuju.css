@@ -1,0 +1,453 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height:100%;
+    background: url("images/Fow-heroes-bg.jpg") no-repeat;
+    background-size: cover;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+
+#shengyashuju1{
+    width: 100%;
+    height: 60px;
+    background: #7B86A9;
+}
+#shengyashuju1 .lu{
+    width: 100%;
+    height: 55px;
+    float: left;
+}
+#shengyashuju1 .lu li{
+    height: 40px;
+    float: left;
+    color: #B3C9E3;
+    font-size: 21px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#shengyashuju1 .lu li:hover{
+    color: #ffffff;
+}
+#shengyashuju1 .lu .logo{
+    background: url("images/logo.png") no-repeat -15px -15px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#shengyashuju1 .lu span{
+    float: left;
+    width: 20px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background: url("images/logo.png")  no-repeat -100px  -122px;
+}
+#shengyashuju1 .lu span:hover{
+    float: left;
+    width: 20px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    background: url("images/logo.png")  no-repeat -100px  -136px;
+}
+#shengyashuju1 .lu .li1{
+    margin-left:52%;
+}
+#shengyashuju1 .lu .li2{
+    color: #ffffff;
+}
+#xiala1{
+    display:none;
+    width: 100%;
+    height: 400px;
+    background-color: #171E2A;
+    background-size: cover;
+    position: absolute;
+    z-index: 999;
+    opacity: 0.9;
+}
+#xiala1 .x1{
+    width: 1350px;
+    height: 230px;
+    margin: 35px 150px 0px 90px;
+    float: left;
+}
+#xiala1 .img1{
+    width: 200px;
+    height: 230px;
+    float: left;
+    margin-left: 20px;
+}
+#xiala1 .img1:hover{
+    border: solid 1px #B3C9E3;
+}
+
+#xiala1 .x2{
+    width: 100%;
+    height: 60px;
+    border: solid 1px #3F6F9F;
+    float: left;
+    margin-top: 75px;
+}
+#xiala1 .x2 span:hover{
+    color: #ffffff;
+}
+#xiala1 .x2 .spa1{
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 20px;
+    color: #cccccc;;
+    float: left;
+    margin-top: 20px;
+}
+#xiala1  .sp1{
+    width: 21px;
+    height: 22px;
+    background: url("images/Fsprite-24-blue.png") no-repeat -27px -193px;
+    float: left;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+#xiala1 .sp2{
+    width: 24px;
+    height: 25px;
+    background: url("images/Fsprite-24-blue.png") no-repeat -120px -73px;
+    float: left;
+    margin-top: 20px;
+}
+#xiala1  .sp3{
+    width: 21px;
+    height: 22px;
+    background: url("images/Fsprite-24-blue.png") no-repeat -51px -50px;
+    float: left;
+    margin-top: 20px;
+}
+#xiala1 .x2img1{
+    margin-left: 40%;
+}
+
+#Xinwen1-d{
+    display: none;
+    width: 100%;
+    height: 280px;
+    background-color: #171E2A;
+    background-size: cover;
+    position: absolute;
+    z-index: 999;
+    opacity: 0.9;
+}
+
+#Xinwen1-d img{
+    width: 192px;
+    height: 192px;
+}
+#Xinwen1-d .j1{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+#Xinwen1-d span{
+    margin-left: 70px;
+    font-size: 14px;
+    color: #cccccc;
+}
+#Xinwen1-d span:hover{
+    color: #ffffff;
+}
+#Xinwen1-d .j2{
+    margin-left: 340px;
+}
+#Xinwen1-w {
+    display: none;
+    width: 360px;
+    height: 190px;
+    background-color: #171E2A;
+    margin-left: 75%;
+    position: absolute;
+    z-index: 999;
+    opacity: 0.9;
+}
+#Xinwen1-w button{
+    width: 320px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #2168B8;
+    border: none;
+    margin: 20px;
+    color: #ffffff;
+}
+#Xinwen1-w li{
+    width: 359px;
+    height: 50px;
+    border: solid 1px #666666;
+    font-size: 18px;
+    line-height: 50px;
+}
+#Xinwen1-w li span:hover{
+    color: #FFFEFf;
+}
+#Xinwen1-w li img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+#Xinwen1-w li span{
+    margin-left: 10px;
+    color: #cccccc;
+}
+
+
+#shengyashuju2{
+    width: 90%;
+    height: 62px;
+    margin: 20px 20px 0 20px;
+    background-color: #29354A;
+    float: left;
+    margin-left: 120px;
+}
+#shengyashuju2 .m-logo{
+    width: 245px;
+    height: 62px;
+    float: left;
+    margin-left: 20px;
+}
+#shengyashuju2 .m-lu2{
+    float: left;
+    width: 1442px;
+    height: 62px;
+}
+
+#shengyashuju2 .nav-menu1{
+    width:100%;
+    height: 40px;
+    background-color:#48536B;
+    position: relative;
+    padding-left: 300px;
+    display: none;
+    float: left;
+}
+#shengyashuju2 .nav-menu2{
+    width:100%;
+    height: 40px;
+    background-color:#48536B;
+    position: relative;
+    padding-left: 460px;
+    display: none;
+    float: left;
+}
+#shengyashuju2 .nav-menu1 li{
+    float: left;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+}
+#shengyashuju2 .nav-menu2 li{
+    float: left;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+}
+#shengyashuju2 .nav-menu1 li a{
+    color: white;
+}
+#shengyashuju2 .nav-menu2 li a{
+    color: white;
+}
+#shengyashuju2 .m-lu2 li{
+    float: left;
+    color: #cccccc;
+    width: 90px;
+    height: 62px;
+    text-align: center;
+    line-height: 62px;
+}
+#shengyashuju2 .m-lu2 li:hover{
+    background-color:#48536B;
+}
+#shengyashuju2 .m-lu2 .l7{
+    background-color: #31658A;
+}
+#shengyashuju2 .m-lu2 .s1{
+    width: 12px;
+    height: 7px;
+    background: url("images/caret-gray.png") no-repeat;
+    float: left;
+    margin-top: 27px;
+    margin-left: -25px;
+}
+#shengyashuju2 .m-btn{
+    margin-left: 37.5%;
+
+    color: #cccccc;
+    width: 99px;
+    height: 62px;
+    text-align: center;
+    line-height: 62px;
+    background: #F89E35;
+    position: relative;
+}
+
+
+#shengyashuju3{
+    width: 1190px;
+    height: 500px;
+    margin: auto;
+    margin-top: 180px;
+}
+#shengyashuju3 p{
+    width: 1190px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+#shengyashuju3 .p3{
+    font-size: 35px;
+    font-family: 华文仿宋;
+}
+#shengyashuju3 p .btn-d{
+    width: 240px;
+    height: 40px;
+    border: solid 2px #FFFEFf;
+    float: left;
+    background: #EAE339;
+    line-height: 40px;
+    margin-left: 460px;
+    color: #FFFFFF;
+}
+
+#shengyashuju4 {
+    width: 100%;
+    height: 400px;
+    background: #000000;
+    float: left;
+}
+#shengyashuju4 .p1{
+    width: 355px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 15px;
+    float: left;
+}
+#shengyashuju4 .p1 a{
+    color: #FFFEFf;
+    width: 100px;
+    height: 30px;
+}
+#shengyashuju4 .p1 .p1s{
+    float: left;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background: url("images/Fsprite-24-blue.png") no-repeat -98px 0px;
+}
+#shengyashuju4 .p1 .p2s{
+    float: left;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background: url("images/Fsprite-24-blue.png") no-repeat -146px -27px;
+}
+#shengyashuju4 .p1 .p3s{
+    float: left;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background: url("images/Fsprite-24-blue.png") no-repeat -27px -122px;
+}
+#shengyashuju4 .p1 .p4s{
+    float: left;
+    margin-right: 30px;
+}
+#shengyashuju4 .d5{
+    width: 1050px;
+    height: 230px;
+    float: left;
+    margin-left: 300px;
+    border-bottom: solid 1px #666666;
+}
+#shengyashuju4 .d5 .d51{
+    margin-top: 50px;
+}
+#shengyashuju4 .d5 .d51 .d51-1{
+    float: left;
+    width: 140px;
+    height: 80px;
+    background:url("images/Fblizzard.png") no-repeat;
+}
+#shengyashuju4 .d5 .d51 .d51-2{
+    float: left;
+    width: 125px;
+    height: 38px;
+    background:url("images/Flogo_ne.png") no-repeat;
+    margin-top: 40px;
+}
+#shengyashuju4 .d5 .d52{
+    width: 726px;
+    height: 134px;
+    float: left;
+    margin-left: 55px;
+}
+#shengyashuju4 .d5 .d52 ul{
+    width: 643px;
+    height: 27px;
+    float: left;
+    line-height: 27px;
+    margin-left: 100px;
+}
+#shengyashuju4 .d5 .d52 ul li{
+    height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #FFFEFf;
+}
+#shengyashuju4 .d5 .d52 p{
+    width: 633px;
+    height: 20px;
+    font-size: 12px;
+    color: #B2B2B2;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+#shengyashuju4 .d5 .d52 p a{
+    color: #B2B2B2;
+}
+#shengyashuju4 .d5 .d52 p span{
+    color: #B2B2B2;
+}
+#shengyashuju4 .d5 .d52 .p6{
+    width: 633px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+#shengyashuju4 .d6{
+    float: left;
+    margin-top: 10px;
+    margin-left: 360px;
+    font-size: 14px;
+    color: #5A5A5A;
+    text-align: center;
+}
+#gotop{
+    width: 40px;
+    height: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255,255,255,.25);
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 12px;
+    z-index: 10;
+    display: inline;
+}
